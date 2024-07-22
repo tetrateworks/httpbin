@@ -7,7 +7,7 @@ spec:
   hosts:
   - "*"
   gateways:
-  - istio-system/shared-gateway
+  - istio-system/shared-gateway-x
   http:
   - match:
     route:
