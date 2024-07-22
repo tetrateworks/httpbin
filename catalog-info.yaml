@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "httpbin"
+  namespace: "httpbin"
+  description: "httpbin app"
+  annotations:
+    github.com/project-slug: tetrateworks/httpbin
+    tetrate.io/tis-cluster: c1
+    argocd/app-name: httpbin
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "group:default/guests"
